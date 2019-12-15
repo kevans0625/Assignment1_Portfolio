@@ -1,37 +1,73 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<meta charset="UTF-8">
-<title>Kristin Evans | Portfolio: Contact</title>
-<header>
-    <div class="container">
 
-            <h1>Kristin Evans</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
+<head>
+    <meta charset="UTF-8">
+    <title>Kristin Evans | Full Stack Web Development Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
+<body>
+        <div class="header">
+        
+            <header>
+                 <div class="wrapper">
+                    <div class="container">
+                         <h1 class="logo" id="heading">Kristin Evans</h1>
+                            <div class="menu">
+                                <nav>
+                                    <ul>
+                                        <li><a href="index.html">About</a></li>
+                                        <li><a href="portfolio.html">Portfolio</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                    </div>
+                 </div>
+            </header>
         </div>
-</header>
 
-<div>
-    <h2>Contact</h2>
-    <br>
-<form action="action_page.php">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="John Smith">
+    <div class="content">
+        <h2>Contact</h2>
+        <br>
+        <form action="action_page.php">
 
-        <label for="email">Email</label>
-        <input type="text" id="email" name="email" placeholder="example@gmail.com">
+            <div class="row">
+                <label for="name">Name</label>
+            </div>
 
-        <label for="message">Message</label>
-        <textarea id="message" name="message" style="height:200px"></textarea>
+            <div class="row">
+                <input type="text" id="name" name="name" placeholder="John Smith">
+            </div>
 
-        <input type="submit" value="Submit">
-    </form>
-</div>
+            <div class="row">
+                <label for="email">Email</label>
+            </div>
+
+            <div class="row">
+                <input type="text" id="email" name="email" placeholder="example@gmail.com">
+            </div>
+
+            <div class="row">
+                <label for="message">Message</label>
+            </div>
+
+            <div class="row">
+                <textarea id="message" name="message" style="height:200px"></textarea>
+            </div>
+
+            <div class="row">
+                <input id="submit" type="submit" value="Submit">
+            </div>
+
+
+        </form>
+
+    </div>
+    <footer>
+        Copyright &#169; 2019
+    </footer>
+</body>
 
 </html>
