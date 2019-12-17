@@ -99,13 +99,13 @@ h1 {
   padding: 0 0 10px 0;
   border-bottom: 1px solid lightgray;
 }
-
 img {
   float: left; 
-  margin: 4px 25px 15px 0px; 
+  margin: 4px 25px 5px 0px; 
   border: 1px solid white;"
+  width: 100%;
+  height: 200px;
 }
-
 p {
   width: fit-content;
   line-height: 36px;
